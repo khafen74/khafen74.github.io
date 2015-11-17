@@ -1,5 +1,6 @@
 header
 	height: 350px
+	margin-bottom: 20px
 	background: url(/img/header_test2.jpg) center center
 	background-size: cover
 	
@@ -10,10 +11,7 @@ header
 			display: inline-block
 			color: rgba(0,0,0,0.7)
 			margin-left: 20px
-			font:
-				size: 14px
-				weight: 700
-			text-transform: uppercase
+			@extend %small-upper
 			text-decoration: none
 			
 			&:hover
@@ -34,6 +32,8 @@ header
 		span
 			display: inline-block
 			padding: 0.15em 0.25em
+			margin-left: 20px
+			margin-right: 20px
 			border: rgba(0,0,0,0.7) solid 7px
 			
 	.kicker
