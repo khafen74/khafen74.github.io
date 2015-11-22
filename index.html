@@ -2,3 +2,35 @@
 layout: home
 ---
 
+<section>	
+	
+	<div class="research">
+	
+		<h2>Research Projects</h2>
+		
+		<div class="page-link">
+			<a href="/research">View All Projects</a>
+		</div>
+		
+	</div>
+	
+	<div class="posts">
+		
+		<h2>Recent Posts</h2>
+		
+		<ul>
+			{% for post in site.posts limit: 5 %}
+				<li>
+					<a href="{{ post.url }}">{{ post.title }}</a>
+					{{ post.excerpt }}
+				</li>
+			{% endfor %}
+		</ul>
+		
+		<div class="page-link">
+			<a href="/blog">View All Posts</a>
+		</div>
+		
+	</div>
+	
+</section>
