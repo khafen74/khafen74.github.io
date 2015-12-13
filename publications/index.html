@@ -2,5 +2,9 @@
 layout: main
 ---
 <section>
-publications go here
+	<ul class="post-list">
+		{% for pub in site.pubs %}
+		  <h2>{{ pub.title }}</h2>
+		{% endfor %}
+	  </ul>
 </section>

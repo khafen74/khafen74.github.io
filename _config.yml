@@ -17,7 +17,9 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: kchafen
 github_username:  khafen74
 author: Konrad Hafen
-paginate: 10
 
 # Build settings
 markdown: kramdown
+
+collections:
+    - pubs
