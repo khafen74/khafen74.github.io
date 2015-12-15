@@ -13,7 +13,7 @@ Jekyll also offers powerful support for code snippets:
 {% highlight cpp linenos %}
 for (int i; i<10; i++)
 {
-	cout<<"iteration"<<i;
+	cout<<"iteration"<<i<;
 }
 {% endhighlight %}
 
