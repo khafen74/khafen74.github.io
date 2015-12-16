@@ -10,6 +10,30 @@ layout: home
 		
 			<h2>Research Projects</h2>
 			
+			<div class="proj-row">
+				<table>
+				{% tablerow proj in site.projects limit:2 %}
+					<div class="proj-tile">
+						<a href="{{ proj.url }}">{{ proj.title }}</a>
+						<img src="{{ proj.picurl }}"></img>
+						<p>{{ proj.desc }}</p>
+					</div>
+				{% endtablerow %}
+				</table>
+			</div>
+			
+			<div class="proj-row">
+				<table>
+				{% tablerow proj in site.projects offset:2 limit:2 %}
+					<div class="proj-tile">
+						<a href="{{ proj.url }}">{{ proj.title }}</a>
+						<img src="{{ proj.picurl }}"></img>
+						<p>{{ proj.desc }}</p>
+					</div>
+				{% endtablerow %}
+				</table>
+			</div>
+			
 			<div class="page-link">
 				<a href="/research">View All Projects</a>
 			</div>

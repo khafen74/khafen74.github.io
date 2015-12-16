@@ -1,8 +1,8 @@
 ---
 layout: project
-title: Aggressive Interactions Between Three Trout Species
+title: Trout Aggression
 desc: Identifying patterns in aggressive behavior between Cutthroat, Tiger, and Rainbow trout
-picurl:
+picurl: https://goo.gl/tSdVgX
 ---
 ###Purpose
 During a study examining the ecology of Rainbow Trout, Cutthroat Trout, Tiger Trout, and Utah Chub in Scofield Reservoir, Utah, we determined that interspecific aggression could potentially be a factor 
