@@ -1,6 +1,20 @@
 ---
 layout: main
 ---
-<section>
-	research projects go here
-</section>
+<div class="content-area">
+
+	<h2>Research Projects</h2>
+	
+		<div class="proj-list">
+		{% for proj in site.projects %}
+
+			<h3>
+			<a class="post-link" href="{{ proj.url | prepend: site.baseurl }}">{{ proj.title }}</a>
+			</h3>
+			
+			{{ proj.desc }}
+		  
+		{% endfor %}
+	</div>
+
+</div>

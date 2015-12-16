@@ -22,4 +22,6 @@ author: Konrad Hafen
 markdown: kramdown
 
 collections:
-    - pubs
+    pubs:
+    projects:
+        output: true
