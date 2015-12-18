@@ -45,8 +45,17 @@ layout: home
 			<h2>Recent Posts</h2>
 			
 			{% for post in site.posts limit: 5 %}
-					<a href="{{ post.url }}">{{ post.title }}</a>
-					{{ post.excerpt }}
+				<table>
+					<tr class="post-row">
+						<td class="col1">
+							<img src="{{ post.urlthmb }}"></img>
+						</td>
+						<td class="col2">
+							<a href="{{ post.url }}">{{ post.title }}</a>
+							{{ post.excerpt }}
+						</td>
+					</tr>
+				</table>
 			{% endfor %}
 			
 			<div class="page-link">

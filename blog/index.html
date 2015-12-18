@@ -5,21 +5,29 @@ layout: main
 <div class="content-area">
 
   <h2>Posts</h2>
+  
+  <p class="rss-subscribe"><span>subscribe <a href='{{ "/feed.xml" | prepend: site.baseurl }}'>via RSS</a></span></p>
 
     <div class="post-list">
 		{% for post in site.posts %}
 
-			<h2>
-			<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-			<br>
-			<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-			</h2>
-			
-			{{ post.excerpt }}
+			<table>
+				<tr class="post-row">
+					<td class="col1">
+						<img src="{{ post.urlthmb }}"></img>
+					</td>
+					<td class="col2">
+						<h2>
+						<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+						<br>
+						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+						</h2>
+						{{ post.excerpt }}
+					</td>
+				</tr>
+			</table>
 		  
 		{% endfor %}
 	</div>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

@@ -2,6 +2,7 @@
 layout: post
 title: Research on Trout Aggression Published in NAJFM
 categories: publications
+urlthmb: https://goo.gl/gTMu48
 ---
 
 As an undergraduate I devoted a fair amount of time to extracurricular activities, among those was research. 
