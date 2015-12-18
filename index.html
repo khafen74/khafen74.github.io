@@ -44,20 +44,30 @@ layout: home
 			
 			<h2>Recent Posts</h2>
 			
-			<ul>
-				{% for post in site.posts limit: 5 %}
-					<li>
-						<a href="{{ post.url }}">{{ post.title }}</a>
-						{{ post.excerpt }}
-					</li>
-				{% endfor %}
-			</ul>
+			{% for post in site.posts limit: 5 %}
+					<a href="{{ post.url }}">{{ post.title }}</a>
+					{{ post.excerpt }}
+			{% endfor %}
 			
 			<div class="page-link">
 				<a href="/blog">View All Posts</a>
 			</div>
 			
 		</div>
+
+		<div class="home-pubs">
+			<h2>Recent Publications</h2>
+			{% for pub in site.pubs %}
+				<div class="home-pub">
+					<h3>{{ pub.title }}</h3>
+					<p>{{ pub.content }}</p>
+				</div>
+			{% endfor %}
+		</div>
+
+			<div class="page-link">
+				<a href="/publications">View All Publications</a>
+			</div>
 	
 	</span></div>
 	
