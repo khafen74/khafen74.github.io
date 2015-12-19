@@ -18,7 +18,7 @@ layout: main
 			</div>
 			<div class="proj-row">
 				<table>
-				{% tablerow proj in site.projects offset:4 limit:0 %}
+				{% tablerow proj in site.projects offset:4 limit:4 %}
 					<div class="proj-tile">
 						<a href="{{ proj.url }}">{{ proj.title }}</a>
 						<img src="{{ proj.picurl }}"></img>
