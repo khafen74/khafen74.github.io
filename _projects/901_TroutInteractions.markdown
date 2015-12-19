@@ -21,7 +21,7 @@ growth/survival through excessive energy expenditure and unnecessary exposure to
 
 ###Visuals
 <div class="vid-container">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/V9lsN0wNmQ8" frameborder="0" allowfullscreen></iframe>
+	<iframe width="750" height="422" src="https://www.youtube.com/embed/V9lsN0wNmQ8" frameborder="0" allowfullscreen></iframe>
 	<p>Observation clip: Aggression between a Cutthroat, Tiger, and Rainbow trout.</p>
 </div>
 	
