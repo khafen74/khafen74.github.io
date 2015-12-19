@@ -5,7 +5,7 @@ desc: Model of Riverine PHyiscal Form and Eco-hydraulic Dynamics
 picurl: https://goo.gl/xOQnLQ
 ---
 ###Purpose
-This research is aimed at developing the "middle ground" of modeling braided river morphodynamics. Current modeling approaches include computations fluid dynamics (CFD) and cellular automata 
+This research is aimed at developing the "middle ground" of modeling braided river morphodynamics. Current modeling approaches include computational fluid dynamics (CFD) and cellular automata 
 (also known as reduced complexity) approaches. While all models are just representations of reality and will never exactly model the desired processes, they are important for assessing and furthering our knowledge, 
 understanding, and representation of physical processes in braided rivers. CFD models erode and transport sediment at very small time-steps, recalculating a new hydraulic solution at each time-step. 
 Hence, they are computationally expensive and run a slower than real-time. On the other hand, cellular automata models sacrifice hydraulic precision and use topography to drive sediment transport. 
