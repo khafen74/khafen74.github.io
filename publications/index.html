@@ -5,13 +5,15 @@ layout: main
 
 	<div class="content-area">
 		<h2>Publications</h2>
-		<ul class="pub-list">
+		<div class="pub-list">
 			{% for pub in site.pubs %}
-			  <p>{{ pub.authors }}. {{ pub.year }}. {{ pub.title }}. {{ pub.journal }} {{ pub.volume }}:{{ pub.pages }}. 
-			  <a href="{{ pub.url }}">URL</a> | 
-			  <a href="{{ pub.pdf }}">PDF</a>
-			  </p>
+				<div class="pub">
+				  <p>{{ pub.authors }}. {{ pub.year }}. {{ pub.title }}. {{ pub.journal }} {{ pub.volume }}:{{ pub.pages }}. 
+				  <a href="{{ pub.url }}">URL</a> | 
+				  <a href="{{ pub.pdf }}">PDF</a>
+				  </p>
+				</div>
 			{% endfor %}
-		</ul>
+		</div>
 	</div>
 </section>
