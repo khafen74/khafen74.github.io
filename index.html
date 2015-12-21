@@ -44,7 +44,7 @@ layout: home
 			
 			<h2>Recent Posts</h2>
 			
-			{% for post in site.posts limit: 5 %}
+			{% for post in site.posts limit: 3 %}
 				<table>
 					<tr class="post-row">
 						<td class="col1">
@@ -66,12 +66,16 @@ layout: home
 
 		<div class="home-pubs">
 			<h2>Recent Publications</h2>
-			{% for pub in site.pubs %}
-				<div class="home-pub">
-					<h3>{{ pub.title }}</h3>
-					<p>{{ pub.content }}</p>
+			<div class="pub-list">
+			{% for pub in site.pubs limit: 3%}
+				<div class="pub">
+				  <p>{{ pub.authors }}. {{ pub.year }}. {{ pub.title }}. {{ pub.journal }} {{ pub.volume }}:{{ pub.pages }}. 
+				  <a href="{{ pub.url }}">URL</a> | 
+				  <a href="{{ pub.pdf }}">PDF</a>
+				  </p>
 				</div>
 			{% endfor %}
+		</div>
 		</div>
 
 			<div class="page-link">
