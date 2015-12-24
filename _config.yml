@@ -25,3 +25,5 @@ collections:
     pubs:
     projects:
         output: true
+    tutorials:
+        output: true
