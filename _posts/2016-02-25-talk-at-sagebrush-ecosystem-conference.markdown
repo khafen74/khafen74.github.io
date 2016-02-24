@@ -8,4 +8,3 @@ This talk gives an overview of some of the work our lab and associated collegues
 Towards the end I touch on some of the developments I'm working on for my Master's degree.
 
 <iframe src="https://docs.google.com/presentation/d/19GWi2T8TV4E1r1ubG7kCYswV-mSmluURDBm8Bp-XFAA/embed?start=false&loop=false&delayms=5000" frameborder="0" width="700" height="546" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
