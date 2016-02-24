@@ -2,7 +2,7 @@
 layout: post
 title: Spring Birding 2015
 categories: birds
-urlthmb: https://goo.gl/gTMu48
+urlthmb: https://goo.gl/emRtJv
 ---
 The truth is, I used to make fun of birders. Now I am one. My wife and I find birding a good way to get outside and enjoy the outdoors when we don't have enough time to get out and do a hike, when I don't feel like fishing, and when it's not hunting season. Also, there are a lot of neat bird species with interesting habits and beautiful features. No matter where you live there are probably quite a few species of birds available for you to watch, and you will eventually see something interesting. 
 
