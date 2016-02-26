@@ -8,13 +8,13 @@ layout: home
 	
 		<div class="research">
 		
-			<h2>Research Projects</h2>
+			<h2><span>Research Projects</span></h2>
 			
 			<div class="proj-row">
 				<table>
 				{% tablerow proj in site.projects limit:3 %}
 					<div class="proj-tile">
-						<a href="{{ proj.url }}">{{ proj.title }}</a>
+						<h3><a href="{{ proj.url }}">{{ proj.title }}</a></h3>
 						<img src="{{ proj.picurl }}"></img>
 						<p>{{ proj.desc }}</p>
 					</div>
@@ -26,7 +26,7 @@ layout: home
 				<table>
 				{% tablerow proj in site.projects offset:3 limit:3 %}
 					<div class="proj-tile">
-						<a href="{{ proj.url }}">{{ proj.title }}</a>
+						<h3><a href="{{ proj.url }}">{{ proj.title }}</a></h3>
 						<img src="{{ proj.picurl }}"></img>
 						<p>{{ proj.desc }}</p>
 					</div>
@@ -42,7 +42,7 @@ layout: home
 		
 		<div class="posts">
 			
-			<h2>Recent Posts</h2>
+			<h2><span>Recent Posts</span></h2>
 			
 			{% for post in site.posts limit: 3 %}
 				<table>
@@ -51,7 +51,7 @@ layout: home
 							<img src="{{ post.urlthmb }}"></img>
 						</td>
 						<td class="col2">
-							<a href="{{ post.url }}">{{ post.title }}</a>
+							<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 							{{ post.excerpt }}
 						</td>
 					</tr>
@@ -65,7 +65,7 @@ layout: home
 		</div>
 
 		<div class="home-pubs">
-			<h2>Recent Publications</h2>
+			<h2><span>Recent Publications</span></h2>
 			<div class="pub-list">
 			{% for pub in site.pubs limit: 3%}
 				<div class="pub">
