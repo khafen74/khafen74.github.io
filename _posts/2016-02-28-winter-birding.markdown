@@ -9,20 +9,20 @@ Birding in the winter is definitely a little more daunting than in the spring su
 Watching this Swainson's Hawk have a little snack was a treat for us (pun intended).
 
 <div class="blog-video">
-	<iframe src="https://youtu.be/qV5mVygvlsk" frameborder="0" allowfullscreen></iframe>
+	<iframe src="https://www.youtube.com/embed/qV5mVygvlsk" frameborder="0" allowfullscreen></iframe>
 </div>
 
 We were really surprised to see these two swans hanging out at a small reservoir in Logan Canyon. 
 It's not trivial to tell the difference between Tundra and Trumpeter Swans. In Utah Trumpeter Swans are somewhat rare, but as best as we could tell that's what these are.
 
 <div class="blog-video">
-	<iframe src="https://youtu.be/mTwtDaQP--o" frameborder="0" allowfullscreen></iframe>
+	<iframe src="https://www.youtube.com/embed/mTwtDaQP--o" frameborder="0" allowfullscreen></iframe>
 </div>
 
 A few days later we also saw this large group of swans in the valley.
 
 <div class="blog-video">
-	<iframe src="https://youtu.be/PCxelL_L_eY" frameborder="0" allowfullscreen></iframe>
+	<iframe src="https://www.youtube.com/embed/PCxelL_L_eY" frameborder="0" allowfullscreen></iframe>
 </div>
 
 {:.center}
