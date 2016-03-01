@@ -32,3 +32,10 @@ growth/survival through excessive energy expenditure and unnecessary exposure to
 </div>
 
 ###Products
+
+Hafen, K., and P. Budy. 2015. Agonisitic Behavior Among Three Stocked Trout Species. North American Journal of Fisheries Management 35:551-556.
+
+<div class="blog-slides">
+	<iframe src="https://docs.google.com/presentation/d/1oBPe8igioYjAHqL1Hf9J4N9nrWFslrPNbc1FmH5YuHI/embed?start=false&loop=true&delayms=5000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+	<p>Slides from a talk given at the 2013 Western Division of the American Fisheries Society Meeting in Boise, ID.</p>
+<div>
