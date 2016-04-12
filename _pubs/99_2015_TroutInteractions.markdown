@@ -2,7 +2,7 @@
 title: Agonisitic behavior among three stocked trout species
 year: 2015
 authors: <strong>Hafen, K.</strong>, and P. Budy
-journal: North American Journal of Fisheries Management
+journal: <i>North American Journal of Fisheries Management</i>
 volume: 35
 pages: 551-556
 doi: 10.1080/02755947.2015.1017126
