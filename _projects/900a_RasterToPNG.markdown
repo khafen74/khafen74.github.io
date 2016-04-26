@@ -15,7 +15,7 @@ const char *outputPNG = "C:/Test/test.png";
 const char *outputPNG2 = "C:/Test/test2.png";
 {%  endhighlight %}
  
-###Stretched Symbology###
+<h3>Stretched Symbology</h3>
 Raster to PNG supports two types of stretched symbology; Minimum - Maximum and Standard Deviation. The example below shows how to create a renderer for Min-Max symbology and Standard Deviation symbology with a Standard Deviation stretch of 2.5.
 
 {% highlight cpp linenos %}
@@ -31,7 +31,7 @@ Renderer1->rasterToPNG(outputPNG, 100, 1000);
 Renderer2->rasterToPNG(outputPNG2, 100, 1000);
 {%  endhighlight %}
    
-###Classified Symbology
+<h3>Classified Symbology</h3>
 The renderer for classified symbology has the same parameters as the stretched symbology renderers, except it has an `integer` parameter for the number of classes instead of a `double` parameter for the stretch function. The code below creates a classified PNG with 20 classes. Each classification is done with an equal interval method.
 
 {% highlight cpp linenos %}
@@ -43,14 +43,14 @@ Renderer_Classified *Renderer1 = new Renderer_Classified(inputRaster, 20, CR_Bla
 Renderer1->rasterToPNG(outputPNG1, 100, 1000);
 {%  endhighlight %}
 
-###Special Cases (Byte data and GCD)
+<h3>Special Cases (Byte data and GCD)</h3>
 When converting a raster that contains byte data (e.g. hillshade raster) be sure to use the `Renderer_ByteData` class. This class will copy the values directly to the PNG instead of classifying or applying a stretch to the values during conversion to a PNG. Raster to PNG displays the values 0 and 255 as NoData, because ESRI uses 255 as NoData for byte rasters and ET-AL functions use 0 as NoData for byte rasters. IMPORTANT: the values in the raster must range from 0 - 255 for this to work properly.
 
 There are special sub classes of `Renderer_Classified` for GCD symbology. These classes are named `Renderer_GCD` followed by the raster type (i.e. `PtDens`, `SlopeDeg`, `Error`, etc.). These classes generally take two parameters, the input raster path and transparency, the other parameters are set as defaults to ensure consistency with GCD layers produced from ESRI products.
-##2. Creating a Legend
+<h2>2. Creating a Legend</h2>
 It is extremely easy to print a legend from a raster layer. After instantiating a `Renderer` object simply call the `printLegend()` or `printLegend(const char *path)` method. The `printLegend()` method prints a legend to with the name of the output PNG plus "legend". For example, if I called `printLegend()` with Renderer1 from the above example the legend would be printed to the path `C:/Test/test_legend.png`. You may also specify a specific legend path using the `printLegend(const char *path)` method. The `printLegend` method calls `setPrecision()` to determine the decimal precesion of the legend labels. The precision can be changed by calling `setPrecision(int prec)` before `printLegend` is called to set a custom decimal precision for a legend. The `setPrecision` method does not change class break or interval values, just the labels that are displayed.
 
-##3. Creating a Layered PNG
+<h2>3. Creating a Layered PNG</h2>
 PNG images can be stacked to create a single PNG image with multiple layers. The base class `Renderer` has a static member `stackImages(const char *inputList, const char *outputImage, int nQuality)` that is used to accomplish this. The input is a `;` delimited list of file paths. The image listed first in the list will appear at the bottom of the stacked image, the second on top of the first, and so on. If I wanted to stack the two PNGs created in the stretched symbology example I would use the following code.
 
 {% highlight cpp linenos %}
