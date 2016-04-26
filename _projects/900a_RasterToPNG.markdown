@@ -6,7 +6,7 @@ picurl: https://goo.gl/xBJ7Y4
 ---
 Raster to PNG is a set of C++ classes that leverage the Geospatial Data Abstraction Library (GDAL) to convert raster data sets to PNG images for display in reports. These classes can reproduce symbology from ESRI products and the Geomorphic Change Detection (GCD) software. Raster to PNG also supports legend printing (as a separate PNG image).
 
-##1. Creating a PNG Image from a Raster
+<h2>1. Creating a PNG Image from a Raster</h2>
 `Renderer` is the base class for class for all classes. Below are examples for how to use Raster to PNG classes for raster conversion with different symbology types. For the examples below we will use the following variables as input and output paths. The rendrers for stretched and classified symbology support centering the color ramp on zero and displaying zero values as NoData. In addition, multiple color ramp options are available. If you are symbolizing a raster with byte data (values from 0-255; e.g. a hillshade raster) be sure to use the methods described in the special cases section.
 
 {% highlight cpp linenos %}
@@ -15,7 +15,7 @@ const char *outputPNG = "C:/Test/test.png";
 const char *outputPNG2 = "C:/Test/test2.png";
 {%  endhighlight %}
  
-###Stretched Symbology
+###Stretched Symbology###
 Raster to PNG supports two types of stretched symbology; Minimum - Maximum and Standard Deviation. The example below shows how to create a renderer for Min-Max symbology and Standard Deviation symbology with a Standard Deviation stretch of 2.5.
 
 {% highlight cpp linenos %}

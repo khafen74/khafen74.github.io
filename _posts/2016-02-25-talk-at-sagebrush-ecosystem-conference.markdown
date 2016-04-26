@@ -9,12 +9,10 @@ Towards the end I touch on some of the developments I'm working on for my Master
 
 <div class="blog-video">
 	<iframe src="https://www.youtube.com/embed/8ehvvGcwwmU" frameborder="0" allowfullscreen></iframe>
+	<p>Video recording of the talk</p>
 </div>
-
-Video recording of the talk.
 
 <div class="blog-slides">
 	<iframe src="https://docs.google.com/presentation/d/19GWi2T8TV4E1r1ubG7kCYswV-mSmluURDBm8Bp-XFAA/embed?start=false&loop=false&delayms=5000" frameborder="0" width="700" height="546" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+	<p>Google slides version of the talk</p>
 </div>
-
-Google slides version of the talk.
