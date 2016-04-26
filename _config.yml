@@ -20,9 +20,9 @@ markdown: kramdown
 
 collections:
     pubs:
+    present:
+        output: true
     projects:
         output: true
     tutorials:
-        output: true
-    present:
         output: true
