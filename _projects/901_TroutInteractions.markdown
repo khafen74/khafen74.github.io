@@ -31,7 +31,7 @@ growth/survival through excessive energy expenditure and unnecessary exposure to
 	We observed no difference in aggression for any species before or after feeding, or at different densities.</p>
 </div>
 
-###Products
+<h3>Products</h3>
 
 Hafen, K., and P. Budy. 2015. Agonisitic Behavior Among Three Stocked Trout Species. North American Journal of Fisheries Management 35:551-556.
 
