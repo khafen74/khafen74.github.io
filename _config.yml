@@ -24,3 +24,5 @@ collections:
         output: true
     tutorials:
         output: true
+    present:
+        output: true
