@@ -1,6 +1,6 @@
 ---
-title: Factors affecting conspecific brood parasitism in Wood Ducks of the North American Intermountain West
-year: In Review
+title: Factors affecting conspecific brood parasitism in Wood Ducks <i>Aix sponsa</i> of the intermountain region of western North America
+year: Accepted
 authors: <strong>Hafen, K.</strong>, and D. N. Koons
 journal: <i>Wildfowl</i>
 volume:
