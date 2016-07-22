@@ -6,6 +6,6 @@ journal: <i>Wildfowl</i>
 volume:
 pages:
 doi:
-url:
+urlp:
 pdf:
 ---

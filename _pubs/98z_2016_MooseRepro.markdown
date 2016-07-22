@@ -6,6 +6,6 @@ journal: <i>Journal of Mammalogy</i>
 volume:
 pages:
 doi:
-url: http://dx.doi.org/10.1093/jmammal/gyw099
+urlp: http://dx.doi.org/10.1093/jmammal/gyw099
 pdf: http://jmammal.oxfordjournals.org/content/early/2016/07/14/jmammal.gyw099.full.pdf
 ---
