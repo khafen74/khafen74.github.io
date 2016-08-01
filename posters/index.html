@@ -13,10 +13,10 @@ layout: main
 		
 		<h2><span>Posters</span></h2>
 		<div class="pub-list">
-			{% for pos in site.poster %}
+			{% for pst in site.poster %}
 				<div class="pub">
-				  <p>{{ pos.authors }}. {{ pos.title }}. {{ pos.conference }}. {{ pos.location }}. {{ pos.month }} {{ pos.year }}. 
-				  <a href="{{ pos.pdf }}">PDF</a>
+				  <p>{{ pst.authors }}. {{ pst.title }}. {{ pst.conference }}. {{ pst.location }}. {{ pst.month }} {{ pst.year }}. 
+				  <a href="{{ pst.pdf }}">PDF</a>
 				  </p>
                   <hr>
 				</div>
