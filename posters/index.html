@@ -4,20 +4,18 @@ layout: main
 <section>
 
 	<div class="content-area">
-	
+		
 		<div class="pub-menu">
 			<a href="/publications">PUBLICATIONS</a>
 			<a href="/presentations">PRESENTATIONS</a>
-            <a href="/posters">POSTERS</a>
 		</div>
 		
-		<h2><span>Publications</span></h2>
+		<h2><span>Presentations</span></h2>
 		<div class="pub-list">
-			{% for pub in site.pubs %}
+			{% for pos in site.poster %}
 				<div class="pub">
-				  <p>{{ pub.authors }}. {{ pub.year }}. {{ pub.title }}. {{ pub.journal }} {{ pub.volume }}:{{ pub.pages }}. 
-				  <a href="{{ pub.urlp }}">URL</a> | 
-				  <a href="{{ pub.pdf }}">PDF</a>
+				  <p>{{ pos.authors }}. {{ pos.title }}. {{ pos.conference }}. {{ pos.location }}. {{ pos.month }} {{ pos.year }}. 
+				  <a href="{{ pos.pdf }}">PDF</a>
 				  </p>
                   <hr>
 				</div>
