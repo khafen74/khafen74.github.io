@@ -26,7 +26,7 @@ growth/survival through excessive energy expenditure and unnecessary exposure to
 </div>
 	
 <div class="img-container">
-	<img src="https://goo.gl/P2Sanz"></img>
+	<img src="https://goo.gl/P2Sanz">
 	<p>Figure 1. Interactions per observational trial as observed for Rainbow Trout, Cutthroat Trout, and Tiger Trout. Each species initiated significantly more chases, than bites/contacts. 
 	We observed no difference in aggression for any species before or after feeding, or at different densities.</p>
 </div>

@@ -19,11 +19,11 @@ Using the [Beaver Restoration Assessment Tool](http://brat.joewheaton.org/) (BRA
 I am developing a spatially explicity model to determine the inundation extent and pond volume of a beaver dam with given height at a specific location. 
 With estimates of inundation extents and water surface elevations I can then use MODFLOW to determine the change in groundwater levels associated with beaver pond construction. 
 Ideally, we will use 10 meter DEMs as inputs as they are nationally available. 
-For development of the model we are also using 1m LiDAR DEMs in certain locations
+For development of the model we are also using 1m LiDAR DEMs in certain locations.
 
 <h3>Visuals<h3>
 
 <div class="img-container">
-	<img src="https://goo.gl/dN1Kt4"></img>
+	<img src="https://goo.gl/dN1Kt4">
 	<p>Figure 1. Modeled depth of beaver ponds and increase in groundwater levels using a 10m DEM.</p>
 </div>
