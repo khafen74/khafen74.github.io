@@ -3,6 +3,7 @@ layout: project
 title: MoRPHED
 desc: Model of Riverine PHyiscal Form and Eco-hydraulic Dynamics
 picurl: https://goo.gl/xOQnLQ
+picwideurl: https://goo.gl/JHWgMA
 ---
 <h3>Purpose</h3>
 This research is aimed at developing the "middle ground" of modeling braided river morphodynamics. Current modeling approaches include computational fluid dynamics (CFD) and cellular automata 

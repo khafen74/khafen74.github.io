@@ -3,6 +3,7 @@ layout: project
 title: Wood Duck Brood Parasitism
 desc: Identifying factors contributing to brood parasitism in artificially nesting Wood Duck populations
 picurl: https://goo.gl/uJp6lP
+picwideurl: https://goo.gl/3YkOs2
 ---
 <h3>Abstract</h3>
 
