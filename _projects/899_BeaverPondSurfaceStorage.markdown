@@ -2,7 +2,7 @@
 layout: project
 title: Beaver Pond Modeling
 desc: Development of a model to identify the effects of beaver ponds on stream hydrology
-picurl: https://goo.gl/lLcAIb
+picurl: https://goo.gl/xEsrjz
 picwideurl: https://goo.gl/BqudXH
 ---
 
