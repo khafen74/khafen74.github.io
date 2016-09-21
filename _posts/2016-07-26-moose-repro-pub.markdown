@@ -2,7 +2,7 @@
 layout: post
 title: Utah Moose Study Runs in Journal of Mammalogy
 categories: publications
-urlthmb: https://goo.gl/cOrLWC
+urlthmb: https://goo.gl/CkuKso
 ---
 
 Another paper coming out of some undergraduate work. We examined two populations of moose in Utah, one of which is the southernmost occurance of moose in the lower 48.

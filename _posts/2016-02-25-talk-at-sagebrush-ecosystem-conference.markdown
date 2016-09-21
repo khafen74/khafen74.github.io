@@ -2,7 +2,7 @@
 layout: post
 title: Talk At Sagebrush Ecosystem Conference
 categories: talks
-urlthmb: https://goo.gl/xMqg3j
+urlthmb: https://goo.gl/TdT0tn
 ---
 This talk gives an overview of some of the work our lab and associated collegues have been conducting using beaver as restoration agents. The material of this talk is specifically tailored to address use of beaver for restoration in sagebrush ecosystems. 
 Towards the end I touch on some of the developments I'm working on for my Master's degree.
