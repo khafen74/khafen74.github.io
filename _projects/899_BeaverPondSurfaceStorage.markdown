@@ -35,5 +35,5 @@ For development of the model we are also using 1m LiDAR DEMs in certain location
 
 <div class="img-container">
 	<img src="https://goo.gl/s3YJz7">
-	<p>Figure 2. Modeled depth of beaver ponds and increase in groundwater levels using a 1m LiDAR DEM.</p>
+	<p>Figure 2. Modeled depth of beaver ponds and increase in ground water (GW) levels using a 1m LiDAR DEM.</p>
 </div>
