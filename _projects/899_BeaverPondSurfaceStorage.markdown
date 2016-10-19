@@ -33,6 +33,16 @@ Ideally, we will use 10 meter DEMs as inputs as they are nationally available.
 For development of the model we are also using 1m LiDAR DEMs in certain locations.
 
 <div class="img-container">
+	<img src="https://goo.gl/2GGnvd">
+	<p>Figure 2. Preliminary modeling workflow.</p>
+</div>
+
+<h3>Results</h3>
+
+<div class="img-container">
 	<img src="https://goo.gl/s3YJz7">
 	<p>Figure 2. Modeled depth of beaver ponds and increase in ground water (GW) levels using a 1m LiDAR DEM.</p>
 </div>
+
+<h3>Products</h3>
+Follow this project on [ResearchGate](https://www.researchgate.net/project/Evaluating-the-potential-of-beaver-dams-to-store-water-at-meaningful-scales?updateId=5807c5cf08ae1b6334593aaf) to get updates.
