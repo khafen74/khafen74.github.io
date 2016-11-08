@@ -45,8 +45,6 @@ For development of the model we are also using 1m LiDAR DEMs in certain location
 </div>
 
 <h3>Products</h3>
-Follow this project on [ResearchGate](https://www.researchgate.net/project/Evaluating-the-potential-of-beaver-dams-to-store-water-at-meaningful-scales?updateId=5807c5cf08ae1b6334593aaf) to get updates.
-
-Links to full text available on [publications](http://khafen74.github.io/publications/) page. 
+Follow this project on [ResearchGate](https://www.researchgate.net/project/Evaluating-the-potential-of-beaver-dams-to-store-water-at-meaningful-scales?updateId=5807c5cf08ae1b6334593aaf) to get updates. Links to full text available on [publications](http://khafen74.github.io/publications/) page. 
 
 Hafen, K., and W. W. Macfarlane. 2016. Can beaver dams mitigate water scarcity caused by climate change and population growth? StreamNotes November:1-5.
