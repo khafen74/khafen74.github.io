@@ -5,9 +5,9 @@ categories: publications
 urlthmb: https://goo.gl/CxKmvQ
 ---
 
-Another paper coming out of some undergraduate work. We examined two populations of moose in Utah, one of which is the southernmost occurance of moose in the lower 48.
+This is the result of my final undergraduate project. We monitored artifical Wood Duck nest boxes in Cache Valley, Utah for three and used the data to address causes of conspecific brood parasitism.
 
-Our analyses focus on the nutrition of moose in these populations and a comparison of our study populations to others in the U.S.A. and Canada along a latitudinal gradient.
-The full article is currently available through Journal of Mammalogy's advance access. You can also contact me via ResearchGate for a full copy.
-
+Our analyses focus on the attributes of habitat and nest boxes that may result in increased levels of conspecific brood parasitism in artificially nesting wood duck populations. 
+Our results indicate that nest boxes mounted on trees have a lower proabability of experience conspecific brood parasitsm regardless of surrounding habitat or nest box density. 
+See the ![publications](http://khafen74.github.io/publications/) page for a URL and PDF!
 ![first page](https://goo.gl/CxKmvQ)
