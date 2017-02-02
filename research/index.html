@@ -6,26 +6,25 @@ layout: main
 	<h2><span>Research Projects</span></h2>
 	
 		<div class="proj-list">
-			<div class="proj-row">
-				<table>
-				{% tablerow proj in site.projects limit:4 %}
-					<div class="proj-tile">
-						<a href="{{ proj.url }}">{{ proj.title }}</a>
-						<img src="{{ proj.picurl }}"></img>
-					</div>
-				{% endtablerow %}
-				</table>
-			</div>
-			<div class="proj-row">
-				<table>
-				{% tablerow proj in site.projects offset:4 limit:4 %}
-					<div class="proj-tile">
-						<a href="{{ proj.url }}">{{ proj.title }}</a>
-						<img src="{{ proj.picurl }}"></img>
-					</div>
-				{% endtablerow %}
-				</table>
-			</div>
+            {% for proj in site.projects %}
+            <hr>
+            <div class="proj-line">
+                <table>
+                    <tr class="proj-row">
+                        <td class="col1">
+                            <img src="{{ proj.picurl }}"></img>
+                        </td>
+                        <td class="col2">
+                            <div class="proj-tile">
+                            <a href="{{ proj.url }}">{{ proj.title }}</a>
+                            </div>
+                            {{ proj.desc }}
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            {% endfor %}
+            <hr>
 	</div>
 
 </div>

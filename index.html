@@ -10,29 +10,26 @@ layout: home
 		
 			<h2><span>Research Projects</span></h2>
 			
-			<div class="proj-row">
-				<table>
-				{% tablerow proj in site.projects limit:3 %}
-					<div class="proj-tile">
-						<h3><a href="{{ proj.url }}">{{ proj.title }}</a></h3>
-						<img src="{{ proj.picurl }}"></img>
-						<p>{{ proj.desc }}</p>
-					</div>
-				{% endtablerow %}
-				</table>
-			</div>
-			
-			<div class="proj-row">
-				<table>
-				{% tablerow proj in site.projects offset:3 limit:3 %}
-					<div class="proj-tile">
-						<h3><a href="{{ proj.url }}">{{ proj.title }}</a></h3>
-						<img src="{{ proj.picurl }}"></img>
-						<p>{{ proj.desc }}</p>
-					</div>
-				{% endtablerow %}
-				</table>
-			</div>
+			<div class="proj-list">
+            {% for proj in site.projects limit: 3 %}
+            <hr>
+            <div class="proj-line">
+                <table>
+                    <tr class="proj-row">
+                        <td class="col1">
+                            <img src="{{ proj.picurl }}"></img>
+                        </td>
+                        <td class="col2">
+                            <div class="proj-tile">
+                            <a href="{{ proj.url }}">{{ proj.title }}</a>
+                            </div>
+                            {{ proj.desc }}
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            {% endfor %}
+            <hr>
 			
 			<div class="page-link">
 				<a href="/research">View All Projects</a>
@@ -44,19 +41,25 @@ layout: home
 			
 			<h2><span>Recent Posts</span></h2>
 			
-			{% for post in site.posts limit: 3 %}
-				<table>
-					<tr class="post-row">
-						<td class="col1">
-							<img src="{{ post.urlthmb }}"></img>
-						</td>
-						<td class="col2">
-							<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-							{{ post.excerpt }}
-						</td>
-					</tr>
-				</table>
-			{% endfor %}
+			{% for post in site.posts limit: 3%}
+            <hr>
+            <div class="post-line">
+                <table>
+                    <tr class="post-row">
+                        <td class="col1">
+                            <img src="{{ post.urlthmb }}"></img>
+                        </td>
+                        <td class="col2">
+                            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                            <br>
+                            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                            {{ post.excerpt }}
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            {% endfor %}
+            <hr>
 			
 			<div class="page-link">
 				<a href="/blog">View All Posts</a>
@@ -68,14 +71,15 @@ layout: home
 			<h2><span>Recent Publications</span></h2>
 			<div class="pub-list">
 			{% for pub in site.pubs limit: 3%}
-				<div class="pub">
+				<hr>
+                <div class="pub">
 				  <p>{{ pub.authors }}. {{ pub.year }}. {{ pub.title }}. {{ pub.journal }} {{ pub.volume }}:{{ pub.pages }}. 
 				  <a href="{{ pub.urlp }}">URL</a> | 
 				  <a href="{{ pub.pdf }}">PDF</a>
 				  </p>
-                  <hr>
 				</div>
 			{% endfor %}
+            <hr>
 		</div>
 		</div>
 

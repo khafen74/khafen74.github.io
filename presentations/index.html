@@ -14,14 +14,15 @@ layout: main
 		<h2><span>Presentations</span></h2>
 		<div class="pub-list">
 			{% for pres in site.present %}
-				<div class="pub">
+				<hr>
+                <div class="pub">
 				  <p>{{ pres.authors }}. {{ pres.title }}. {{ pres.conference }}. {{ pres.location }}. {{ pres.month }} {{ pres.year }}. 
 				  <a href="{{ pres.slides }}">SLIDES</a> | 
 				  <a href="{{ pres.video }}">VIDEO</a>
 				  </p>
-                  <hr>
 				</div>
 			{% endfor %}
+            <hr>
 		</div>
 	</div>
 	
