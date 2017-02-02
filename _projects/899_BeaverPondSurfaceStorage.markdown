@@ -8,7 +8,7 @@ picwideurl: https://goo.gl/BqudXH
 
 NOTE: This research is ongoing and results are preliminary
 
-<h3>Purpose</h3>
+<h2>Purpose</h2>
 
 With shifting precipiation and streamflow regimes in the western United States, and given projections of future climate change, there is likelihood for continued hydrologic alterations and potential water scarcity.
 Additionally, projected, rapid population growth in the western U.S. may increase future water demand beyond the capacity of current water resources infrastructure.
@@ -26,7 +26,7 @@ The purpose of this study is to quantify the potential effects of beaver dams on
 	<p>Figure 1. Potential increases to water storage above and below ground resulting from beaver dam construciton.</p>
 </div>
 
-<h3>Methods</h3>
+<h2>Methods</h2>
 Using the [Beaver Restoration Assessment Tool](http://brat.joewheaton.org/) (BRAT) to determine dam density and location on a drainage network, we are developing a spatially explicit model to determine the inundation extent and volume of a beaver ponds. 
 With estimates of inundation extents and water surface elevations we can then use MODFLOW to determine the change in groundwater levels associated with beaver pond construction. 
 Ideally, we will use 10 meter DEMs as inputs as they are nationally available. 
@@ -37,14 +37,14 @@ For development of the model we are also using 1m LiDAR DEMs in certain location
 	<p>Figure 2. Preliminary modeling workflow.</p>
 </div>
 
-<h3>Results</h3>
+<h2>Results</h2>
 
 <div class="img-container">
 	<img src="https://goo.gl/s3YJz7">
 	<p>Figure 2. Modeled depth of beaver ponds and increase in ground water (GW) levels using a 1m LiDAR DEM.</p>
 </div>
 
-<h3>Products</h3>
+<h2>Products</h2>
 Follow this project on [ResearchGate](https://www.researchgate.net/project/Evaluating-the-potential-of-beaver-dams-to-store-water-at-meaningful-scales?updateId=5807c5cf08ae1b6334593aaf) to get updates. Links to full text available on the [publications](http://khafen74.github.io/publications/) page. 
 
 Hafen, K., and W. W. Macfarlane. 2016. Can beaver dams mitigate water scarcity caused by climate change and population growth? StreamNotes November:1-5.

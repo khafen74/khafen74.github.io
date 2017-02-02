@@ -14,4 +14,7 @@ Exact details for my presentation can be found at the link below.
 
 [https://agu.confex.com/agu/fm16/meetingapp.cgi/Paper/131146](https://agu.confex.com/agu/fm16/meetingapp.cgi/Paper/131146)
 
-![agu](https://goo.gl/JjXTEj)
+<br>
+<div class="post-img">
+    <img src="https://goo.gl/JjXTEj">
+</div>

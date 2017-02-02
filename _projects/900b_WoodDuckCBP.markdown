@@ -5,7 +5,7 @@ desc: Identifying factors contributing to brood parasitism in artificially nesti
 picurl: https://goo.gl/uJp6lP
 picwideurl: https://goo.gl/3YkOs2
 ---
-<h3>Abstract</h3>
+<h2>Abstract</h2>
 
 Artificial nest box programs have frequently been initiated to increase breeding habitat and bolster Wood Duck (Aix sponsa) populations. 
 However, Wood Duck colonies relying heavily on nest box programs are also prone to lower nest hatchability and increased nest abandonment, 
@@ -20,7 +20,9 @@ Results agree with hypotheses that tree-mounted boxes offer more concealment for
 Placing nest boxes in trees, where possible, 
 may increase egg hatchability and decrease nest abandonment by decreasing the occurrence of extreme CBP in artificially nesting Wood Duck populations.
 
-<h3>Products</h3>
+<h2>Products</h2>
+
+Hafen, K. and D. N. Koons. 2016. Factors affecting conspecific brood parasitism in Wood Duck Aix Sponsa of the intermountain region of North America. Wildfowl. 66:186-196.
 
 <div class="blog-slides">
 	<iframe src="https://docs.google.com/presentation/d/1qq_gVPf7ovk-bY5VGoY5G5e2XGpKFXmBxe5lGus8nXs/embed?start=false&loop=true&delayms=5000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

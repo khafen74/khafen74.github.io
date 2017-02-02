@@ -5,14 +5,14 @@ desc: Identifying patterns in aggressive behavior between Cutthroat, Tiger, and 
 picurl: https://goo.gl/qpFOsa
 picwideurl: https://goo.gl/uxflej
 ---
-<h3>Purpose</h3>
+<h2>Purpose</h2>
 During a study examining the ecology of Rainbow Trout, Cutthroat Trout, Tiger Trout, and Utah Chub in Scofield Reservoir, Utah, we determined that interspecific aggression could potentially be a factor 
 contributing to growth and survival of the species in the reservoir. Of particular concern was the interaction of the three trout species. Cutthroat Trout and Tiger Trout were stocked in Scofield Reservoir 
 as potential biological controls for Utah Chub. Because of their high growth and reproductive rates Utah Chub can quickly take over a reservoir and reduce the quality of trout fisheries, prior to the 
 introduction of Utah Chub (which are not native to the Colorado River Basin, where Scofield Reservoir is located), Scofield Reservoir was one of Utah's blue ribbon Rainbow Trout fisheries, but its quality 
 declined as chub populations grew. There was concern that interactions between the trout species could be resulting in decreased trout condition overall. 
 
-<h3>Summary</h3>
+<h2>Summary</h2>
 To determine the extent of interspecific interactions between the three trout species we held behavior trials in which one fish of each species was placed in a tank and their behavior was video recorded. 
 We analyzed the videos by counting the number of times a species attacked another, either by chasing it, or making contact with it, and the recipient species of this aggressive behavior. 
 
@@ -20,7 +20,7 @@ Overall, we found that Rainbow Trout are, by far, more aggressive than Cutthroat
 However, Rainbow Trout appear to have lower survival and growth relative to Cutthroat Trout and Tiger Trout in Scofield Reservoir. We therefore suggest that Rainbow Trout aggression is likely reducing their 
 growth/survival through excessive energy expenditure and unnecessary exposure to predators. 
 
-<h3>Visuals</h3>
+<h2>Visuals</h2>
 <div class="vid-container">
 	<iframe width="750" height="422" src="https://www.youtube.com/embed/V9lsN0wNmQ8" frameborder="0" allowfullscreen></iframe>
 	<p>Observation clip: Aggression between a Cutthroat, Tiger, and Rainbow trout.</p>
@@ -32,7 +32,7 @@ growth/survival through excessive energy expenditure and unnecessary exposure to
 	We observed no difference in aggression for any species before or after feeding, or at different densities.</p>
 </div>
 
-<h3>Products</h3>
+<h2>Products</h2>
 
 Hafen, K., and P. Budy. 2015. Agonisitic Behavior Among Three Stocked Trout Species. North American Journal of Fisheries Management 35:551-556.
 
