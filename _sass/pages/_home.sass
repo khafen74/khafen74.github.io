@@ -41,39 +41,46 @@
     font-size: 12px
     color: $link
         
-.proj-row
-    text-align: center
-    padding: 0 0px
-    h3
-        text-indent: 0px
-        background: none
-        box-shadow: none
-    
-    img
-        width: 100%
-        display: block
-    
+.proj-summary
+    padding: 15px 0px 10px 0px
     a
         font-size: 20px
-        vertical-align: top
+    p
+        padding: 0 5px
+    h3
+        text-indent: 0px
     
-    td
+    .proj-line
         background-color: $lightbg
-        vertical-align: top
-        width: 33%
+        margin: 0px 0px
         
-    table
-        border-spacing: 15px
-        
-        .proj-tile
-            padding: 0 15px
-            background-color: $lightbg
-            h3
-                margin-top: 2px
-                text-align: center
+        .proj-row
+            text-align: left
             
-            p
-                vertical-align: bottom
+            table
+                border-spacing: 15px
+                table-layout: fixed
+            td
+                padding: 0px 15px
+            .col1
+                width: 20%
+            .col2
+                width: 80%
+
+            img
+                vertical-align: middle
+                max-height: 100%
+                max-width: 100%
+                width: 100%
+                height: auto
+                
+            .proj-tile
+                background-color: $lightbg
+                padding: -5px
+                height: 100%
+                p
+                    vertical-align: bottom
+                    
 .posts
     a
         padding: 0 10px
@@ -86,8 +93,8 @@
         
     table
         table-layout: fixed
-        margin-top: 20px
-        margin-bottom: 10px
+        margin-top: 0px
+        margin-bottom: 0px
         h3
             padding: 5px 10px 0px 10px
         p

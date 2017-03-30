@@ -10,7 +10,7 @@ layout: home
 		
 			<h1>Research Projects</h1>
 			
-			<div class="proj-list">
+			<div class="proj-summary">
             {% for proj in site.projects limit: 3 %}
             <hr>
             <div class="proj-line">
@@ -23,7 +23,7 @@ layout: home
                             <div class="proj-tile">
                             <a href="{{ proj.url }}">{{ proj.title }}</a>
                             </div>
-                            {{ proj.desc }}
+                            <p>{{ proj.desc }}</p>
                         </td>
                     </tr>
                 </table>
