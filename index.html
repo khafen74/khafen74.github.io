@@ -4,13 +4,13 @@ layout: home
 
 <section>
 
-	<div class="content-area"><span>
-	
-		<div class="research">
-		
-			<h1>Research Projects</h1>
-			
-			<div class="proj-summary">
+    <div class="content-area"><span>
+    
+        <div class="research">
+        
+            <h1>Research Projects</h1>
+            
+            <div class="proj-summary">
             {% for proj in site.projects limit: 3 %}
             <hr>
             <div class="proj-line">
@@ -30,19 +30,19 @@ layout: home
             </div>
             {% endfor %}
             <hr>
-			
-			<div class="page-link">
-				<a href="/research">View All Projects</a>
-			</div>
-			
+            
+            <div class="page-link">
+                <a href="/research">View All Projects</a>
+            </div>
+            
             </div>
         </div>
-		
-		<div class="posts">
-			
-			<h1><span>Recent Posts</span></h1>
-			
-			{% for post in site.posts limit: 3%}
+        
+        <div class="posts">
+            
+            <h1><span>Recent Posts</span></h1>
+            
+            {% for post in site.posts limit: 3%}
             <hr>
             <div class="post-line">
                 <table>
@@ -61,33 +61,33 @@ layout: home
             </div>
             {% endfor %}
             <hr>
-			
-			<div class="page-link">
-				<a href="/blog">View All Posts</a>
-			</div>
-			
-		</div>
+            
+            <div class="page-link">
+                <a href="/blog">View All Posts</a>
+            </div>
+            
+        </div>
 
-		<div class="home-pubs">
-			<h1><span>Recent Publications</span></h1>
-			<div class="pub-list">
-			{% for pub in site.pubs limit: 3%}
-				<hr>
+        <div class="home-pubs">
+            <h1><span>Recent Publications</span></h1>
+            <div class="pub-list">
+            {% for pub in site.pubs limit: 3%}
+                <hr>
                 <div class="pub">
-				  <p>{{ pub.authors }}. {{ pub.year }}. {{ pub.title }}. {{ pub.journal }} {{ pub.volume }}:{{ pub.pages }}. 
-				  <a href="{{ pub.urlp }}">URL</a> | 
-				  <a href="{{ pub.pdf }}">PDF</a>
-				  </p>
-				</div>
-			{% endfor %}
+                  <p>{{ pub.authors }}. {{ pub.year }}. {{ pub.title }}. {{ pub.journal }} {{ pub.volume }}:{{ pub.pages }}. 
+                  <a href="{{ pub.urlp }}">URL</a> | 
+                  <a href="{{ pub.pdf }}">PDF</a>
+                  </p>
+                </div>
+            {% endfor %}
             <hr>
-		</div>
-		</div>
+        </div>
+        </div>
 
-			<div class="page-link">
-				<a href="/publications">View All Publications</a>
-			</div>
-	
-	</span></div>
-	
+            <div class="page-link">
+                <a href="/publications">View All Publications</a>
+            </div>
+    
+    </span></div>
+    
 </section>
