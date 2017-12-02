@@ -8,7 +8,7 @@
 # Site settings
 title: Modeling Surface and Ecological Systems
 email: your-email@domain.com
-description: The research website of Konrad Hafen, a graduate student at Utah State University. Content is aimed at providing thoughts, methods, reserach, and tutorials related to modeling Earth's surface and ecological systems.
+description: The research website of Konrad Hafen, a graduate student at Utah State University. Content is aimed at providing thoughts, methods, reserach, and tutorials related to modeling earth surface and ecological systems.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: kchafen
